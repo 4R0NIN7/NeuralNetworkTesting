@@ -1,7 +1,7 @@
 import torch.nn as nn
 import torch
 import random
-from learnStuff.linear_regression import LinearRegression
+from learnStuff.models.linear_regression import LinearRegression
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 """
